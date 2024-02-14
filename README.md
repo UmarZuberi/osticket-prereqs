@@ -36,27 +36,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/38bd0fb5-e158-4e4d-a811-a884e1095b37)
 ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/225a0e22-c8a1-4632-a00c-a4ad35f476a5)
 
+3. Upon establishing a connection to your virtual machine, navigate to the Control Panel. Within the Control Panel, locate and open the "Programs" section. From there, select "Turn Windows features on and off."
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/a252a280-38f8-42f0-a581-da71d8165a2c)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/51e79344-7b67-4f69-ad0b-d46df5a54839)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+4. To enable IIS in Windows with CGI and Common HTTP Features, follow these steps:
+   
+Navigate to "World Wide Web Services" in the "Application Development Features" section.
+Check the boxes for "CGI" and "Common HTTP Features" under "World Wide Web Services."
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/7951285a-6688-4aae-8eba-23d726516fe5)
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/199ab235-647d-44c6-8886-579b001812a4)
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
