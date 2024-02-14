@@ -126,11 +126,68 @@ Go to C Drive -> PHP -> Click on the "php-cgi" file.
   --> Reload IIS again.
 
   
-15. In IIS:
+14. In IIS:
     
   --> Go to "Sites" -> "Default" -> "osTicket".
   
   --> On the right, click "Browse *:80" to access osTicket.
+
+  ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/d52657c0-bc82-433b-80e8-89b6bbbbabbc)
+
+ --> don't wprry about unchecked section
+
+ ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/ff423955-10e7-4b08-8425-26f3d9cf7cd7)
+
+ 
+To enable the extensions in osTicket:
+
+--> Go back to IIS: Navigate to "Sites" -> "Default" -> "osTicket".
+
+--> Double-click on PHP Manager.
+
+--> Click on "Enable or disable an extension".
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/731623e1-1c44-4130-b942-ddb255238e3e)
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/002419b6-d692-4d45-ab37-4e84cee905ae)
+
+
+To enable the required extensions in osTicket:
+
+A. In PHP Manager, navigate to "Enable or disable an extension".
+B. Check the boxes for the following extensions:
+
+--> php_imap.dll
+
+--> php_intl.dll
+
+--> php_opcache.dll
+
+Make sure to save the changes after enabling each extension.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/971f6068-a1e3-4cc6-8119-d87064e9a706)
+
+
+15. To rename the file in the osTicket folder and set permissions:
+    
+A. Navigate to File Explorer and search for "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php".
+
+B. Rename "ost-sampleconfig.php" to "ost-config.php".
+
+C. Right-click on the renamed file and go to "Properties".
+
+D. Click on "Security", then "Advanced", and disable inheritance by selecting "Remove all inherited permissions from this object".
+
+E. Click "Add" to add new permissions.
+
+
+
+
+
+
+
+
+
 
 
 
