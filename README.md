@@ -86,7 +86,9 @@ B. Confirm the browser displays a default IIS landing page indicating successful
     -> Set the new root password as: Password1 (don't do this for real world scenario)
 
     ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/bc55f1cc-c539-4812-bd85-cd45dd5f6251)
-    -> click execute
+
+     -> click execute
+
     ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/929ff4f2-b7ff-497c-b379-d26efb07e2fe)
 
 
