@@ -54,6 +54,32 @@ Check the boxes for "CGI" and "Common HTTP Features" under "World Wide Web Servi
 
 ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/199ab235-647d-44c6-8886-579b001812a4)
 
+
+NOTE: Ensure all Common HTTP Features are checked during IIS installation.
+
+To verify IIS installation/enabled:
+
+A. Open a browser and search for "127.0.0.1".
+B. Confirm the browser displays a default IIS landing page indicating successful installation/enabling.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/9a30c7d2-07b4-41a9-9a81-131e2c5cb367)
+
+5. Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) from the Installation Files. Follow the installation wizard and complete the installation process.
+
+6. Download and install the Rewrite Module (rewrite_amd64_en-US.msi) from the Installation Files.
+
+7. Create a folder named "PHP" in the C drive (C:\PHP).
+
+8. Download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) from the Installation Files. Unzip the contents into the C:\PHP folder.
+
+*Note: If prompted, choose to "Keep" the file when the attention message appears.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/9c637b47-1838-4ecb-a531-3011928cb20a)
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/fdfd6972-0a6c-4189-b06e-2534a437e77d)
+
+
+
    
 
 
