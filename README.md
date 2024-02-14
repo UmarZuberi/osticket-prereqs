@@ -115,6 +115,26 @@ Go to C Drive -> PHP -> Click on the "php-cgi" file.
 ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/1e25130a-f65b-43b6-bee8-e1777283e773)
 
 
+13. Install osTicket v1.15.8:
+
+  --> Download osTicket from the Installation Files Folder.
+    
+  --> Extract the downloaded file and copy the "upload" folder to "C:\inetpub\wwwroot".
+  
+  --> Rename the copied "upload" folder to "osTicket" within "C:\inetpub\wwwroot".
+  
+  --> Reload IIS again.
+
+  
+15. In IIS:
+    
+  --> Go to "Sites" -> "Default" -> "osTicket".
+  
+  --> On the right, click "Browse *:80" to access osTicket.
+
+
+
+
 
 
 
