@@ -95,6 +95,16 @@ B. Confirm the browser displays a default IIS landing page indicating successful
 
     ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/f46adad3-5088-458b-8c4b-8dee7ee8551a)
 
+12. Within IIS, proceed to register PHP by clicking on "PHP Manager."
+
+    ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/7a41d8c8-8ae1-4c4e-b46c-ee225166cb39)
+
+--> register PHP
+
+
+
+    
+
 
 
 
