@@ -101,6 +101,23 @@ B. Confirm the browser displays a default IIS landing page indicating successful
 
 --> register PHP
 
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/db879b72-f1e5-4535-a674-5c24fa0ece9e)
+
+
+--> You'll need to provide a path to the PHP executable file (php-cgi.exe). Navigate to the following location:
+
+Go to C Drive -> PHP -> Click on the "php-cgi" file.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/ac8ee311-be60-4646-b0bb-efb5f013316d)
+
+--> click restart
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/1e25130a-f65b-43b6-bee8-e1777283e773)
+
+
+
+
+
 
 
     
