@@ -78,6 +78,19 @@ B. Confirm the browser displays a default IIS landing page indicating successful
 
 ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/fdfd6972-0a6c-4189-b06e-2534a437e77d)
 
+9. Download VC_redist.x86.exe from the installation files and install it. Follow the setup wizard to complete the installation process.
+
+10. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). Follow these steps in the setup wizard: Choose Typical Setup
+    -> Launch Configuration Wizard (after install)
+    -> Select Standard Configuration
+    -> Set the new root password as: Password1 (don't do this for real world scenario)
+
+    ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/bc55f1cc-c539-4812-bd85-cd45dd5f6251)
+    -> click execute
+    ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/929ff4f2-b7ff-497c-b379-d26efb07e2fe)
+
+
+
 
 
    
