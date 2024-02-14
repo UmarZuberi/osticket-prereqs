@@ -91,6 +91,11 @@ B. Confirm the browser displays a default IIS landing page indicating successful
 
     ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/929ff4f2-b7ff-497c-b379-d26efb07e2fe)
 
+11. Search for "IIS" in the Windows search bar and open it as an administrator. The program should appear similar to this.
+
+    ![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/f46adad3-5088-458b-8c4b-8dee7ee8551a)
+
+
 
 
 
