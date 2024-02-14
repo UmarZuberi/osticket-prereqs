@@ -17,19 +17,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Azure Virtual Machine
-- IIS Protocal (Internet Information Service)
-- PHP Manager
-- Rewrite Module
-- VC Redist
-- MySQL
-- Heidi SQL
-- osTicket
-- All neccesary files https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- Create Azure Virtual Machine with Windows OS 
+- Connect to VM via Remote Desktop Connection.
+- Enable IIS and install PHP Manager in Control Panel.
+- Install Rewrite Module and VC Redist within IIS.
+- Download MySQL installer, install MySQL Server, and Heidi SQL.
+- Download osTicket and follow installation instructions.
+- Configure each component and test functionality.
+- Implement security measures (firewalls, permissions, SSL).
+- https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6 <-- all necessary downloads
+
+
+
 
 <h2>Installation Steps</h2>
 
-1. Begin by navigating to https://portal.azure.com/ to initiate the creation of a virtual machine. Configure the virtual machine with Windows 10 Pro, specifically version 22H2. Ensure that the virtual machine is equipped with a minimum of 2 vCPUs and 16 GB of memory.
+1. Begin by navigating to https://portal.azure.com/ to initiate the creation of a virtual machine. Configure the virtual machine with Windows 10 Pro, specifically version 22H2. 2vCPU is recomended.
 
 2. After successfully creating the virtual machine, establish a connection to it using the public IP address assigned to the VM. Utilize the Remote Desktop Connection application for this connection process.
 
