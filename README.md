@@ -180,6 +180,79 @@ D. Click on "Security", then "Advanced", and disable inheritance by selecting "R
 
 E. Click "Add" to add new permissions.
 
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/93a21ef0-f571-4689-bbc3-c59d0b18d513)
+
+--> click "set a principle"
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/720d36d9-a6c0-4727-8336-1cfb0ce2853d)
+
+--> type "everyone"
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/893c8c50-db6d-447a-8708-6e55412ff94f)
+
+--> select all below
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/070f23a5-cac3-4df0-8c69-b88d0374f66c)
+
+--> ok & apply
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/a94e5ffb-9369-4c45-b40a-7e1e71416c9a)
+
+
+16. Once the file renaming and permissions setup is completed, proceed with setting up osTicket in the browser:
+
+A. Click "Continue" on the osTicket browser page.
+
+B. Fill out the required fields on the page, excluding the Database Settings at the bottom.
+
+C. Download and install HeidiSQL from the Installation Files.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/c8825114-c0ad-41be-ba11-23fd58e5b869)
+
+--> In HeidiSQL, create a new session.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/b8fbb801-a1a9-4061-9c6c-8b89e1a0d5e1)
+
+--> Ensure the username is "root" and the password is "Password1" when setting up the new session in HeidiSQL.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/5d47b19c-756a-476f-b00c-fbffdcb83533)
+
+
+17. Once connected to the session in HeidiSQL, go back to the browser to complete the setup. In the Database Settings, use "root" as the username and "Password1" as the password.
+
+18. To create a new database in HeidiSQL, right-click on "Unnamed" on the left side, select "Create new", then "Database", and name it "osTicket". After setting up the new database, return to the osTicket browser and enter "osTicket" under MySQL Database.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/98a9a4a2-6e51-4c0a-9d74-820b24e6b4d2)
+
+19. The final steps are cleanup:
+
+A. Delete the setup folder from the system:
+
+B. Delete: C:\inetpub\wwwroot\osTicket\setup (Only delete the setup folder).
+Set the permissions back to "Read" only in the ost-config.php file.
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/29eb41ca-67d4-4889-8dbd-767355886931)
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/5bd8d35b-aef0-47ca-a7b4-11b4cab5b0f5)
+
+20. Log in when done 
+
+![image](https://github.com/UmarZuberi/osticket-prereqs/assets/159849539/edeaa794-eacc-4825-9554-b0834fb9b9e8)
+
+Finally! osTicket is installed :)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
